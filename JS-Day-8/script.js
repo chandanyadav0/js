@@ -1,0 +1,13 @@
+// const heading = document.getElementById("title");
+// console.log(heading);
+// heading.style.color = "blue";
+// heading.style.backgroundColor = "lightblue";
+// heading.style.textAlign = "center";
+// heading.textContent = "Welcome to JavaScript Styling!";
+
+const subheading = document.getElementsByClassName("sub-heading");
+console.log(subheading);
+
+for(let i = 0; i < subheading.length; i++) {
+    subheading[i].style.color = "blue";
+}
